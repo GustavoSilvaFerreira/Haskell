@@ -81,3 +81,10 @@ progDois:: IO()
 progDois = putStrLn "Digite um numero: " >>
             readLn >>= \x -> putStrLn "Digite outro numero: " >>
             readLn >>= \y -> putStrLn("O numero eh: " ++show(x*y))
+            
+
+
+-- Site consultas Haskell
+--https://hackage.haskell.org/package/base-4.8.2.0/docs/Control-Monad-Instances.html
+--http://haskell.tailorfontela.com.br/a-fistful-of-monads
+--http://haskell.tailorfontela.com.br/functors-applicative-functors-and-monoids#applicative-functors

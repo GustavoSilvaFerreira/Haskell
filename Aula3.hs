@@ -11,7 +11,7 @@ teste3 (x:y:z:xs) = [x]++[y]++[z] --indica 3 letras
 troque :: String -> String
 troque (a:b:c:d:xs) = [c]++[d]++[a]++[b]++xs
 --Os value constroctors sao os valores dos data constructors. os value constroctors podem carregar campos. 
---record syntax
+--record syntax é o nome dos campos
 data Pessoa = Fisica {pessoaNome::String,
                         pessoaIdade::Int} | 
                 Juridica {pessoaNome::String} deriving Show
